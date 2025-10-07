@@ -1,0 +1,28 @@
+---
+
+# 3) logo.svg (flat color background — open in browser)
+This is a single-file SVG you can copy into logo.svg. It's flat, geometric, minimalist — teal and silver on charcoal.
+
+```svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Charcoal background -->
+  <rect width="100%" height="100%" fill="#222428"/>
+  <!-- Stylized geometric hand (teal + silver) -->
+  <!-- palm -->
+  <path d="M320 600c0-110 90-200 200-200s200 90 200 200v140c0 22-18 40-40 40H360c-22 0-40-18-40-40V600z"
+        fill="#1fb6b0"/>
+  <!-- finger segments (teal)
+       simplified stylized rectangles with rounded ends -->
+  <rect x="420" y="170" rx="28" ry="28" width="80" height="220" fill="#1fb6b0" transform="rotate(-8 460 280)"/>
+  <rect x="360" y="160" rx="28" ry="28" width="70" height="210" fill="#1fb6b0" transform="rotate(-18 395 265)"/>
+  <rect x="490" y="150" rx="28" ry="28" width="70" height="230" fill="#1fb6b0" transform="rotate(6 525 265)"/>
+  <rect x="550" y="220" rx="28" ry="28" width="60" height="180" fill="#1fb6b0" transform="rotate(18 580 310)"/>
+  <!-- silver accents -->
+  <path d="M360 760h320v20H360z" fill="#bfc6c9" opacity="0.6"/>
+  <path d="M520 420c40 0 72 32 72 72v100c0 6-4 10-10 10H458c-6 0-10-4-10-10V492c0-40 32-72 72-72z"
+        fill="#c6d7d6" opacity="0.12"/>
+  <!-- project initial "G" as subtle mark -->
+  <circle cx="170" cy="170" r="68" fill="#1fb6b0" opacity="0.12"/>
+  <text x="170" y="188" font-family="Verdana" font-size="72" fill="#bfc6c9" opacity="0.9" text-anchor="middle">G</text>
+</svg>
