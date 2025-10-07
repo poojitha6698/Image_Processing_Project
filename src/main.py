@@ -34,7 +34,7 @@ def main(camera_index=0):
             annotated, f"Gesture: {gesture}", (20, 50),
             cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2
         )
-        cv2.imshow("Dino Game Gesture Control", annotated)
+        cv2.imshow("Dino game gesture control (press Q to exit)", annotated)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
